@@ -153,7 +153,7 @@ navigate('/login')
                         }
                         , pattern: {
                             value: /^(?=.*[A-Za-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/,
-                            message: 'Make a strong password'
+                            message: 'Atleast 1 Capital,Special sym and number'
                         },
                         minLength: {
                             value: 6,
